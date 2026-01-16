@@ -1,0 +1,83 @@
+{
+  "vin": "1FT7W2BT0KED12345",
+  "vehicle": {
+    "make": "Ford",
+    "model": "F-250 Super Duty",
+    "year": "2019",
+    "trim": "6.7L Diesel"
+  },
+  "modules": [
+    {
+      "id": "0x7E0",
+      "name": "PCM",
+      "bus": "HS-CAN",
+      "category": "Powertrain",
+      "txId": 2016,
+      "rxId": 2024,
+      "dtcs": [
+        {
+          "code": "P0123",
+          "description": "Throttle/Pedal Position Sensor A Circuit High",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "0x7E1",
+      "name": "TCM",
+      "bus": "HS-CAN",
+      "category": "Powertrain",
+      "txId": 2017,
+      "rxId": 2025,
+      "dtcs": []
+    },
+    {
+      "id": "0x726",
+      "name": "ABS",
+      "bus": "HS-CAN",
+      "category": "Chassis",
+      "txId": 1830,
+      "rxId": 1838,
+      "dtcs": [
+        {
+          "code": "C0031",
+          "description": "Left Front Wheel Speed Sensor",
+          "status": "stored"
+        }
+      ]
+    },
+    {
+      "id": "0x727",
+      "name": "BCM",
+      "bus": "MS-CAN",
+      "category": "Body",
+      "txId": 1831,
+      "rxId": 1839,
+      "dtcs": []
+    },
+    {
+      "id": "0x7D0",
+      "name": "IPC",
+      "bus": "MS-CAN",
+      "category": "Interior",
+      "txId": 2000,
+      "rxId": 2008,
+      "dtcs": [
+        {
+          "code": "U0100",
+          "description": "Lost Communication With ECM/PCM",
+          "status": "history"
+        }
+      ]
+    },
+    {
+      "id": "0x7C4",
+      "name": "HVAC",
+      "bus": "MS-CAN",
+      "category": "Comfort",
+      "txId": 1988,
+      "rxId": 1996,
+      "dtcs": []
+    }
+  ]
+}

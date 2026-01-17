@@ -5,6 +5,7 @@
     "devPath": "http://localhost:5173",
     "distDir": "../dist"
   },
+
   "package": {
     "productName": "Vyntool",
     "version": "0.1.0"

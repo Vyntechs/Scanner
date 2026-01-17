@@ -3,10 +3,7 @@
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build",
     "devPath": "http://localhost:5173",
-    "distDir": "../dist",
-    "watch": {
-      "paths": ["../src", "../src-tauri"]
-    }
+    "distDir": "../dist"
   },
   "package": {
     "productName": "Vyntool",
